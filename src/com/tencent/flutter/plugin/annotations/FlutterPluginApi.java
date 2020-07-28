@@ -7,7 +7,8 @@ import java.lang.annotation.Target;
 
 /**
  * This is a mark annotation, when this annotation mark a method,
- * then this method will be add to flutter plugin as a native api
+ * the method will be add to flutter plugin as a native api.
+ *
  */
 @Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.SOURCE)
